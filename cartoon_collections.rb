@@ -13,7 +13,11 @@ def long_planeteer_calls(collection) # code an argument here
   collection.any? { |i| i.length >4 }
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(collection)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  collection.each do |element|
+    return element if cheese_types.include(element)
+  end 
+  nil
 end
