@@ -17,7 +17,7 @@ def find_the_cheese(collection)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   collection.each do |element|
-    return element if cheese_types.include(element)
+    return element if cheese_types.include?(element)
   end 
   nil
 end
