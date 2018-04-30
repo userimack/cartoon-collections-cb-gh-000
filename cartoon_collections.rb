@@ -8,8 +8,9 @@ def summon_captain_planet(collection) # code an argument here
   collection.map {|element| element[0].upcase + element.slice(1, element.length) + "!"}
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(collection) # code an argument here
   # Your code here
+  
 end
 
 def find_the_cheese# code an argument here
