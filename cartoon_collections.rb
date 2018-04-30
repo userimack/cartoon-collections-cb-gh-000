@@ -1,6 +1,6 @@
 def roll_call_dwarves(collection) # code an argument here
   # Your code here
-  collection.each_with_index { | element, index | puts "#{index + 1} #{element}"
+  collection.each_with_index { | element, index | puts "#{index + 1} #{element}"}
 end
 
 def summon_captain_planet# code an argument here
