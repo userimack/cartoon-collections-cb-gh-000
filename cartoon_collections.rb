@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet(collection) # code an argument here
   # Your code here
-  collection.map {|element| }
+  collection.map {|element| element[0].upcase + element.slice(1, element.length) + "!"}
 end
 
 def long_planeteer_calls# code an argument here
